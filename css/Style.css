@@ -184,7 +184,7 @@ h2 {
     height: 60px;
     border-radius: 100%;
     background-color: #F4F0EC;
-    background-image: url(https://charcharich.github.io/images/phone.svg);
+    background-image: url(../../images/phone.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 43%;
@@ -203,7 +203,7 @@ h2 {
 }
 
 .image-secondpage {
-    background-image: url(https://charcharich.github.io/images/secondBG.png);
+    background-image: url(../../images/secondBG.png);
     width: 50%;
     height: 100%;
     background-position: center;
@@ -356,7 +356,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(https://charcharich.github.io/Images/microArrow.svg);
+    background-image: url(../../Images/microArrow.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 30%;
