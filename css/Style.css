@@ -68,7 +68,7 @@ a:hover {
 .container-main {
     height: calc(100vh - 76px);
     width: 100%;
-    background-image: url(https://charcharich.github.io/images/bgmain.png);
+    background-image: url(https://charcharich.github.io/Images/bgmain.png);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: auto 130%;
@@ -184,7 +184,7 @@ h2 {
     height: 60px;
     border-radius: 100%;
     background-color: #F4F0EC;
-    background-image: url(../../images/phone.svg);
+    background-image: url(../../Images/phone.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 43%;
@@ -203,7 +203,7 @@ h2 {
 }
 
 .image-secondpage {
-    background-image: url(../../images/secondBG.png);
+    background-image: url(../../Images/secondBG.png);
     width: 50%;
     height: 100%;
     background-position: center;
