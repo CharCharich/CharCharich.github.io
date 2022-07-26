@@ -68,7 +68,7 @@ a:hover {
 .container-main {
     height: calc(100vh - 76px);
     width: 100%;
-    background-image: url(../../Images/bgmain.png);
+    background-image: url(../Images/bgmain.png);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: auto 130%;
