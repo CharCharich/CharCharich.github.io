@@ -448,12 +448,35 @@ strong {
     font-family: 'Poppins-medium';
     font-size: 18px;
 }
-.circle-container{
+
+.container-person {
+    display: flex;
+    justify-content: center;
+}
+
+.person {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.name-person {
+    border: 1px solid;
+    border-image-source: linear-gradient(96.67deg, rgba(255, 255, 255, 0.1) -5.21%, rgba(255, 255, 255, 0) 93.75%);
+    background: linear-gradient(0deg, rgba(40, 48, 54, 0.2), rgba(40, 48, 54, 0.2)),
+        linear-gradient(96.67deg, rgba(255, 255, 255, 0.1) -5.21%, rgba(255, 255, 255, 0) 93.75%);
+    background: rgba(40, 48, 54, 0.2);
+    backdrop-filter: blur(100px);
+    border-radius: 8px;
+}
+
+.circle-container {
     position: relative;
     width: 380px;
     height: 380px;
 
 }
+
 .bg-circle {
     position: relative;
     width: 380px;
@@ -465,15 +488,24 @@ strong {
     z-index: 0;
 }
 
+.person-photo {
+    position: absolute;
+    bottom: -30px;
+    left: 17px;
+    z-index: 3;
+    width: 392px;
+    height: 492px;
+}
+
 .bg-circle2 {
     position: absolute;
-    width: 300px;
-    height: 300px;
+    width: 305px;
+    height: 305px;
     border-radius: 300px;
     background: rgba(40, 48, 54, 0.4);
     border: 1px solid rgba(255, 255, 255, 0.03);
     backdrop-filter: blur(50px);
-    z-index: 2;
+    z-index: 1;
     left: 40px;
     top: 40px;
 }
@@ -484,23 +516,27 @@ strong {
     width: 30px;
     filter: blur(40px);
     transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
-    z-index: 0;
+    z-index: 1;
 }
-.bg-circle3{
+
+.bg-circle3 {
     bottom: 50px;
     right: 15px;
     background: rgba(255, 110, 48, 0.6);
 }
-.bg-circle4{
+
+.bg-circle4 {
     top: 50px;
     left: 45px;
     background: rgba(179, 69, 241, 1);
 }
-.bg-circle:hover .bg-circle3{
+
+.bg-circle:hover .bg-circle3 {
     width: 50px;
     height: 50px;
 }
-.bg-circle:hover .bg-circle4{
+
+.bg-circle:hover .bg-circle4 {
     width: 50px;
     height: 50px;
 }
@@ -523,4 +559,3 @@ strong {
     filter: blur(40px);
     transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
-
