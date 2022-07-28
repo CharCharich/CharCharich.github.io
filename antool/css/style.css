@@ -391,7 +391,7 @@ button:focus{
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
-    width: 55%;
+    width: 50%;
 }
 
 .new-tools {
