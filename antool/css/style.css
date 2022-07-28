@@ -175,6 +175,7 @@ button:focus{
 .text-second {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .text-second h1 {
@@ -834,6 +835,7 @@ margin: 0;
         font-size: 20px;
     }
 }
+/* 
 @media (min-width: 1280px){
     .link-container a{
         font-size: 20px;
@@ -898,4 +900,80 @@ margin: 0;
     .join-search{
         width: 90%;
     }
-}
+} */
+/* @media (min-width: 393px){
+    .link-container a{
+        font-size: 23px;
+    }
+    .links{
+        width: 60%;
+    }
+    .top-text h1 {
+        font-size: 40px;
+    }
+    .top-text p {
+        font-size: 21px;
+    }
+    .nav{
+        height: 60px;
+    }
+    .nav-button{
+        font-size: 13px;
+    }
+    .container-items{
+        width: 85%;
+    }
+   
+    .text-newcomer h1{
+        font-size: 44px;
+    }
+    .text-newcomer p{
+        font-size: 16px;
+    }
+    .name-tools{
+        margin-left: 20px;
+    }
+    .name-tools h2{
+        font-size: 18px;
+       
+    }
+    .note-tools p{
+        font-size: 15px;
+    }
+    .about-new-tools {
+        font-size: 14px;
+    }
+    .new-tools {
+        width: 205px;
+        height: 300px;
+        margin-left: 10px;
+    }
+    .main-container-person{
+        width: 90%;
+    }
+    .circle-container {
+        margin-right: 90px;
+    }
+    .person{
+        width: 100%;
+    }
+    .right-text-person p{
+        font-size:11px;
+        margin-left: 20px;
+    }
+    .up-pointer p{
+        font-size: 250px;
+    }
+    .left-arrow {
+        padding: 0px 10px
+    }
+    .right-arrow {
+        padding: 0px 10px
+    }
+    .main-input{
+        font-size: 14px;
+    }
+    .join-search{
+        width: 90%;
+    }
+} */
