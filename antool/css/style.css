@@ -15,6 +15,11 @@
     src: local('Poppins'), url(../fonts/Poppins-Medium.ttf) format('truetype');
     font-weight: initial;
 }
+@font-face {
+    font-family: 'Lora-medium', serif;
+    src: local('Lora'), url(../fonts/Lora-Medium.ttf) format('truetype');
+    font-weight: initial;
+}
 
 body {
     margin: 0;
@@ -33,6 +38,16 @@ input:focus-visible {
 
 strong {
     color: rgba(255, 110, 48, 1);
+}
+button{
+    background: none;
+    cursor: pointer;
+    border-radius: 0;
+    border: none;
+    font-weight: initial;
+}
+button:focus{
+    outline:0
 }
 
 .container {
@@ -452,29 +467,52 @@ strong {
 .container-person {
     display: flex;
     justify-content: center;
+    margin-top: 200px;
+    align-items: center;
 }
 
 .person {
     display: flex;
     width: 70%;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .name-person {
+    position: absolute;
+    width: 265px;
+    height: 91px;
+    top: 295px;
+    left: 200px;
     border: 1px solid;
-    border-image-source: linear-gradient(96.67deg, rgba(255, 255, 255, 0.1) -5.21%, rgba(255, 255, 255, 0) 93.75%);
-    background: linear-gradient(0deg, rgba(40, 48, 54, 0.2), rgba(40, 48, 54, 0.2)),
-        linear-gradient(96.67deg, rgba(255, 255, 255, 0.1) -5.21%, rgba(255, 255, 255, 0) 93.75%);
+    border-image: linear-gradient(96.67deg, rgba(255, 255, 255, 0.1) -5.21%, rgba(255, 255, 255, 0) 93.75%);
+    border-image-slice: 1;
     background: rgba(40, 48, 54, 0.2);
-    backdrop-filter: blur(100px);
+    backdrop-filter: blur(7px);
     border-radius: 8px;
+    z-index: 4;
+    overflow: hidden;
+}
+.name-person h2{
+    font-family: 'Poppins-medium';
+    font-size: 26px;
+    color: rgba(255, 253, 253, 0.78);
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.name-person p{
+    font-family: 'Poppins-regular';
+    font-size: 16px;
+    color: rgba(255, 253, 253, 0.55);
+    margin-top: 0;
+}
+.about-person{
+    margin-left: 23px;
 }
 
 .circle-container {
     position: relative;
     width: 380px;
     height: 380px;
-
 }
 
 .bg-circle {
@@ -558,4 +596,60 @@ strong {
     width: 50px;
     filter: blur(40px);
     transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.right-text-person p{
+    font-family: 'Poppins-regular';
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.78);
+}
+.right-text-person{
+    z-index: 1;
+}
+.up-pointer{
+    position: relative;
+    bottom: 250px;
+    right: 90px;
+    z-index: 0;
+}
+.up-pointer p{
+    position: absolute;
+width: 103px;
+height: 320px;
+color: rgba(255, 255, 255, 0.78);
+font-family: 'lora-medium';
+font-weight: 500;
+font-size: 250px;
+line-height: 320px;
+background: linear-gradient(174deg, rgba(252, 252, 252, 0) 22.34%, rgba(255, 255, 255, 0.9) 184.72%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+transform: rotate(19.17deg);
+margin: 0;
+}
+.left-arrow{
+    padding: 0px 50px;
+    height: 100%;
+    color: rgba(255, 255, 255, 0.28);
+}
+.right-arrow{
+    padding: 0px 50px;
+    height: 100%;
+    transform:  rotate(180deg);
+}
+.left-arrow-svg{
+    transition: 0.2s cubic-bezier(0.4, 0, 1, 1);
+}
+.left-arrow:hover .left-arrow-svg{
+    stroke: rgba(255, 110, 48, 1);
+    overflow: hidden;
+}
+.right-arrow-svg{
+    transition: 0.2s cubic-bezier(0.4, 0, 1, 1);
+}
+.right-arrow:hover .right-arrow-svg{
+    stroke: rgba(255, 110, 48, 1);
+    overflow: hidden;
+}
+.rectangle-link{
+    display: flex;
 }
