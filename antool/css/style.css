@@ -464,17 +464,25 @@ button:focus{
     font-size: 18px;
 }
 
+.main-container-person {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-top: 200px;
+    align-items: center;
+}
 .container-person {
     display: flex;
     justify-content: center;
     margin-top: 200px;
     align-items: center;
+    flex-direction: column;
 }
 
 .person {
     display: flex;
-    width: 70%;
-    justify-content: space-evenly;
+    width: 80%;
+    justify-content: space-between;
 }
 
 .name-person {
@@ -650,6 +658,40 @@ margin: 0;
     stroke: rgba(255, 110, 48, 1);
     overflow: hidden;
 }
-.rectangle-link{
+.bot-sliders{
+    margin-top: 100px;
     display: flex;
+    width: 17%;
+    justify-content: space-evenly;
+    padding: 30px 0;
+}
+.rectangle{
+    width: 44px;
+    height: 6px;
+    background: rgba(40, 48, 54, 1);
+    border-radius: 4px;
+    overflow: hidden;
+}
+.rectangle::before {
+    transition: height 0.3s cubic-bezier(0.45, 0.05, 0.24, 0.83);
+    ;
+    transition: width 0.3s cubic-bezier(0.45, 0.05, 0.24, 0.83);
+    ;
+    width: 0;
+    height: 0;
+    content: " ";
+}
+
+.rectangle:hover {
+    transform: translateY(-15px);
+    transition: transform 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.rectangle:hover::before {
+    position: absolute;
+    content: " ";
+    height: 65px;
+    width: 65px;
+    background: rgba(255, 110, 48, 0.6);
+    transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
