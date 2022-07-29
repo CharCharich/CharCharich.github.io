@@ -498,6 +498,10 @@ button:focus{
     justify-content: space-between;
     align-items: center;
 }
+.person-photo img{
+    margin-top: 30px;
+    border-radius: 30px;
+}
 
 .name-person {
     position: absolute;
@@ -550,8 +554,8 @@ button:focus{
 
 .person-photo {
     position: absolute;
-    bottom: -30px;
-    left: 17px;
+    bottom: -80px;
+    left: 50px;
     z-index: 3;
     width: 392px;
     height: 492px;
