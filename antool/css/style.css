@@ -49,7 +49,15 @@ button{
 button:focus{
     outline:0
 }
-
+* {
+    -webkit-touch-callout: none; 
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none; 
+              user-select: none;
+                                   
+  }
 .container {
     margin: 0 7%;
 }
@@ -280,6 +288,9 @@ button:focus{
     display: flex;
     justify-content: space-between
 }
+.like-svg{
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
 
 .bot-buttons a {
     font-family: 'Poppins-SemiBold';
@@ -483,7 +494,9 @@ button:focus{
 .person {
     display: flex;
     width: 80%;
+    height: 600px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .name-person {
@@ -660,7 +673,6 @@ margin: 0;
     overflow: hidden;
 }
 .bot-sliders{
-    margin-top: 100px;
     display: flex;
     width: 17%;
     justify-content: space-evenly;
@@ -835,8 +847,9 @@ margin: 0;
         font-size: 20px;
     }
 }
-/* 
-@media (min-width: 1280px){
+
+@media (min-width: 1280px) and (max-width: 1366px)
+{
     .link-container a{
         font-size: 20px;
     }
@@ -900,8 +913,9 @@ margin: 0;
     .join-search{
         width: 90%;
     }
-} */
-/* @media (min-width: 393px){
+} 
+ @media (min-width: 393px) and (max-width: 500px)
+ {
     .link-container a{
         font-size: 23px;
     }
@@ -976,4 +990,8 @@ margin: 0;
     .join-search{
         width: 90%;
     }
-} */
+}
+.active{
+    fill: rgba(253, 59, 65, 1);
+    
+}
