@@ -1,0 +1,274 @@
+@font-face {
+    font-family: 'inter-regular';
+    src: local('inter'), url(../fonts/Inter-Regular.ttf) format('truetype');
+    font-weight: initial;
+}
+
+@font-face {
+    font-family: 'azertmono-bold';
+    src: local('AzertMono-Bold'), url(../fonts/AzeretMono-Bold.ttf) format('truetype');
+    font-weight: initial;
+}
+@font-face {
+    font-family: 'azertmono-regular';
+    src: local('AzertMono-regular'), url(../fonts/AzeretMono-Regular.ttf) format('truetype');
+    font-weight: initial;
+}
+body {
+    margin: 0;
+}
+
+A {
+    color: rgba(210, 116, 135, 1);
+    text-decoration: none;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+.container-first-page {
+    background: #4A2B33;
+    justify-content: center;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.nav {
+    display: flex;
+    width: 85%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+
+.links {
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+}
+
+.link {
+    font-family: "inter-regular";
+    font-size: 15px;
+}
+
+.social-top {
+    display: flex;
+    width: 7%;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.main-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.first-photo {
+    width: 85%;
+    display: flex;
+    margin-bottom: 36px;
+}
+
+.page-aboutus {
+    display: flex;
+    justify-content: center;
+}
+
+.text-aboutus {
+    text-align: center;
+    margin-top: 220px;
+    margin-bottom: 240px;
+}
+
+.text-aboutus h2 {
+    font-family: "azertmono-bold";
+    font-size: 17px;
+    margin-bottom: 0;
+}
+
+.text-aboutus p {
+    font-family: "inter-regular";
+    font-size: 32px;
+    margin-top: 3px;
+}
+
+.page-menu {
+    background: rgba(233, 233, 227, 1);
+    justify-content: center;
+}
+
+.container-menu {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.menu {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.text-menu h2 {
+    font-family: "azertmono-bold";
+    font-size: 18px;
+    color: rgba(111, 111, 100, 1);
+    margin: 0;
+}
+
+.text-menu p {
+    font-family: "inter-regular";
+    font-size: 32px;
+    color: rgba(111, 111, 100, 1);
+    margin-top: 17px;
+}
+
+.container-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    display: flex;
+    border: 2px solid rgba(111, 111, 100, 1);
+    margin-top: 12px;
+    font-family: "inter-regular";
+    font-size: 15px;
+    color: rgba(111, 111, 100, 1);
+    height: 58px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button:hover {
+    background: rgba(111, 111, 100, 1);
+    transition: background-color 0.4s;
+    color: #FFFFFF
+}
+
+.img-menu {
+    display: flex;
+    width: 50%;
+}
+.page-location{
+    background: rgba(170, 158, 84, 1);
+    display: flex;
+    justify-content: center;
+}
+.graphic-work{
+    display: flex;
+    width: 85%;
+    justify-content: space-around;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.graphic-work h2{
+    font-family: "azertmono-bold";
+    font-size: 17px;
+    color: #FFFFFF
+}
+.graphic-work p{
+    font-family: "inter-regular";
+    font-size: 25px;
+    color: #FFFFFF
+}
+.page-photo{
+    display: flex;
+    justify-content: center;
+}
+.container-photo{
+    width: 72%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.mini-photo{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 640px;
+}
+.last-page{
+    background: rgba(74, 43, 51, 1);
+    display: flex;
+    justify-content: center;
+}
+.container-last-page{
+    width: 72%;
+}
+.winnig-cafe{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.left-text h1{
+    font-family: "azertmono-regular";
+    font-size: 47px;
+    color: #D27487;
+}
+.right-text p{
+    font-family: "inter-regular";
+    font-size: 18px;
+    color: #D27487;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.container-footer{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.links-top{
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "inter-regular";
+    font-size: 15px;
+    color: black;
+}
+.links-top p{
+    font-family: "inter-regular";
+    font-size: 15px;
+    color: black;
+    margin: 0;
+}
+.links-midle{
+    margin-top: 7px;
+    display: flex;
+    justify-content: space-around;
+    font-family: "inter-regular";
+    font-size: 15px;
+    color: black;
+}
+.links-midle p{
+    font-family: "inter-regular";
+    font-size: 15px;
+    color: black;
+    margin: 0;
+}
+.copyright{
+    display: flex;
+    justify-content: space-evenly;
+}
+.copyright p{
+    font-family: "inter-regular";
+    font-size: 13px;
+    color: #696969;
+}
