@@ -517,6 +517,12 @@ justify-content: center;
     .main-design-text p{
         font-size: 13px;
     }
+    .conainer-people{
+        border-radius: 0;
+    }
+    .conainer-people h1{
+        font-size: 30px;
+    }
     .container-secondpage{
         width: 90%;
         margin-top: 60px;
@@ -564,6 +570,15 @@ justify-content: center;
         margin-top: 10px;
         flex-direction: column;
         align-items: center;
+    }
+    .top-project{
+        margin-top: 20px;
+    }
+    .top-project h1{
+        font-size: 35px;
+    }
+    .conainer-project{
+        width: 98%;
     }
     .brands img{
         width: 20%;
