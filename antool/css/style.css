@@ -802,7 +802,7 @@ margin: 0;
     font-size: 16px;
     color: rgba(255, 255, 255, 0.55);
 }
-@media (min-width: 2048px){
+@media (max-width: 2048px){
     .link-container a{
         font-size: 20px;
         

@@ -43,8 +43,8 @@ body {
     font-size: 15px;
 }
 
-.logo {
-    width: 50%;
+.logo img{
+    width: 100%;
 }
 
 A {
@@ -447,7 +447,7 @@ h2 {
     width: 70%;
     justify-content: space-between;
 }
-.link-container a{
+.link-container {
     font-family: 'Jost-Regular';
     font-size: 12px;
 }
@@ -470,53 +470,104 @@ justify-content: center;
     background-color: #E5E5E5;
     margin-top: 40px;
 }
-.logo img{
-    width: 90px;
-}
-@media (min-width: 2048px){
-    .link-container a{
-        font-size: 20px;
-        
-    }
+
+@media (max-width: 980px) and (min-width:320px){
     .nav{
-        height: 60px;
+        padding: 5px 10px;
     }
-    .logo img{
-        width: 120px;
+    .link-container a{
+        font-size: calc(0.9vh + 8px) 
     }
-    h2{
-        font-size: 33px !important;
+    .links{
+        width: 75%;
     }
-    h1{
-        font-size: 44px !important;
+    .logo{
+        width: 25%;
+        max-width: 100px;
     }
-    p{
-        font-size: 23px !important;
+
+    .container-main{
+        height: 500px;
     }
-    .text-inbutton{
-        font-size: 18px;
+    .main-text{
+        margin-left: 20px;
     }
-    .link{
-        font-size: 23px;
+    .main-text h1{
+        font-size: 35px;
     }
-    .image-secondpage{
-        border-bottom-left-radius: 180px;
-        border-top-right-radius: 610px;
+    .main-text p{
+        font-size: 16px;
+    }
+    .main-button{
+        padding: 7px;
+        width: 145px;
+    }
+    .container-design{
+        margin-top: 20px;
+        flex-wrap: wrap;
+        height:auto;
+    }
+    .main-design-text{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .main-design-text h2{
+        font-size:17px ;
+    }
+    .main-design-text p{
+        font-size: 13px;
     }
     .container-secondpage{
-        height: 780px;
+        width: 90%;
+        margin-top: 60px;
+    }
+    .secondpage-text {
+        width: 100%;
+        align-items: center;
+    }
+    .secondpage-text h1{
+        font-size: 20px;
+    }
+    .secondpage-text p{
+        font-size: 12px;
+    }
+    .top-text{
+        margin: 20px 0;
+    }
+    .rectangle{
+        width: 40px;
+        height: 40px;
+    }
+    .image-secondpage{
+    display: none;
+    }
+    .brands{
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+    .main-button{
+        padding: 4px;
+        width: 55%;
+    }
+    .conainer-people{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .block-people{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .block-name{
+        display: flex;
+        width: 100%;
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .brands img{
+        width: 20%;
+        padding: 30px 30%;
         
     }
-    .container-Join {
-    height: 450px;
-    }
-    .contact-button {
-    width: 220px;
-    height: 80px;
-    }
-    .contact-button img{
-        width: 30px;
-    }
-    
-
 }
