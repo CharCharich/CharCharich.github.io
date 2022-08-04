@@ -567,7 +567,7 @@ justify-content: center;
     .block-name{
         display: flex;
         width: 100%;
-        margin-top: 10px;
+        margin:10px 5px;
         flex-direction: column;
         align-items: center;
     }
@@ -578,11 +578,52 @@ justify-content: center;
         font-size: 35px;
     }
     .conainer-project{
-        width: 98%;
+        width: 100%;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+        margin: 0 5px;
     }
     .brands img{
         width: 20%;
         padding: 30px 30%;
         
+    }
+    .container-Join{
+        width: 100%;
+        border-radius: 0;
+        margin-top: 30px;
+    }
+    .text-join h1{
+        font-size: 30px;
+    }
+    .container-footer{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .text-footer p{
+        font-size: 10px;
+    }
+    .social-footer img{
+        width: 70%;
+    }
+    .nav-footer h2{
+        font-size: 12px;
+    }
+    .pages-footer .link-container a{
+        font-size: 9px;
+        margin-top: 0;
+    }
+    .text-contact p{
+        font-size: 9px;
+    }
+    .Copyright-footer p{
+        font-size: 9px;
+    }
+    .Copyright-footer .link {
+        font-size: 9px;
     }
 }
