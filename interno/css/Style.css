@@ -43,7 +43,7 @@ body {
     font-size: 15px;
 }
 
-.logo img{
+.logo img {
     width: 100%;
 }
 
@@ -71,7 +71,7 @@ a:hover {
     background-image: url(../Images/bgmain.png);
     background-position: bottom;
     background-repeat: no-repeat;
-    background-size: auto 130%;
+    background-size: 100%;
     display: flex;
     align-items: center;
 
@@ -362,12 +362,13 @@ h2 {
     background-size: auto 30%;
     margin-right: 10px;
 }
-.container-Join{
+
+.container-Join {
     width: 70%;
     background-color: #292F36;
     border-radius: 40px;
     text-align: center;
-    height: 300px ;
+    height: 300px;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -375,7 +376,8 @@ h2 {
     align-items: center;
     margin-top: 90px;
 }
-.contact-button{
+
+.contact-button {
     display: flex;
     background-color: #CDA274;
     width: 180px;
@@ -386,246 +388,549 @@ h2 {
     height: 60px;
     margin-top: 40px;
 }
-.text-inbutton{
+
+.text-inbutton {
     font-family: 'Jost-Regular';
     font-size: 13px;
     text-align: center;
     padding: 13px;
 }
-.contact-button div{
+
+.contact-button div {
     color: #ffffff;
 }
-.text-join{
+
+.text-join {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-.text-join h1{
+.text-join h1 {
     font-family: 'Dmserif';
     font-size: 35px;
     color: white;
 }
-.text-join p{
+
+.text-join p {
     font-family: 'Jost-Regular';
     font-size: 13px;
     color: white;
 }
-.container-footer{
+
+.container-footer {
     width: 70%;
     margin-top: 60px;
 }
-.nav-footer{
+
+.nav-footer {
     display: flex;
     justify-content: space-between;
 }
-.nav-footer h2{
+
+.nav-footer h2 {
     font-family: 'Dmserif';
     font-size: 16px;
 }
-.nav-footer p{
+
+.nav-footer p {
     font-family: 'Jost-Regular';
-    font-size: 12px ;
+    font-size: 12px;
 }
-.left-footer{
+
+.left-footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-.social-footer{
+
+.social-footer {
     display: flex;
     width: 65%;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
 }
-.links-footer{
+
+.links-footer {
     display: flex;
 }
-.right-footer{
+
+.right-footer {
     display: flex;
     width: 70%;
     justify-content: space-between;
 }
+
 .link-container {
     font-family: 'Jost-Regular';
     font-size: 12px;
 }
-.pages-footer .link-container{
+
+.pages-footer .link-container {
     margin-top: 10px;
 }
-.Copyright-footer{
-display: flex;
-width: 100%;
-align-items: center;
-justify-content: center;
+
+.Copyright-footer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
-.Copyright-footer p{
+
+.Copyright-footer p {
     font-family: 'Jost-Regular';
     font-size: 12px;
 }
-.polosochka-footer{
+
+.polosochka-footer {
     width: 100%;
     height: 1px;
     background-color: #E5E5E5;
     margin-top: 40px;
 }
 
-@media (max-width: 980px) and (min-width:320px){
-    .nav{
+@media (max-width: 980px) and (min-width:320px) {
+    .nav {
         padding: 5px 10px;
     }
-    .link-container a{
-        font-size: calc(0.9vh + 8px) 
+
+    .link-container a {
+        font-size: calc(0.9vh + 8px)
     }
-    .links{
+
+    .links {
         width: 75%;
     }
-    .logo{
+
+    .logo {
         width: 25%;
         max-width: 100px;
     }
 
-    .container-main{
+    .container-main {
         height: 500px;
+        background-size: auto 130%;
     }
-    .main-text{
+
+    .main-text {
         margin-left: 20px;
     }
-    .main-text h1{
+
+    .main-text h1 {
         font-size: 35px;
     }
-    .main-text p{
+
+    .main-text p {
         font-size: 16px;
     }
-    .main-button{
+
+    .main-button {
         padding: 7px;
         width: 145px;
     }
-    .container-design{
+
+    .container-design {
         margin-top: 20px;
         flex-wrap: wrap;
-        height:auto;
+        height: auto;
     }
-    .main-design-text{
+
+    .main-design-text {
         width: 100%;
         margin-top: 20px;
     }
-    .main-design-text h2{
-        font-size:17px ;
+
+    .main-design-text h2 {
+        font-size: 17px;
     }
-    .main-design-text p{
+
+    .main-design-text p {
         font-size: 13px;
     }
-    .conainer-people{
+
+    .conainer-people {
         border-radius: 0;
     }
-    .conainer-people h1{
+
+    .conainer-people h1 {
         font-size: 30px;
     }
-    .container-secondpage{
+
+    .container-secondpage {
         width: 90%;
         margin-top: 60px;
     }
+
     .secondpage-text {
         width: 100%;
         align-items: center;
     }
-    .secondpage-text h1{
+
+    .secondpage-text h1 {
         font-size: 20px;
     }
-    .secondpage-text p{
+
+    .secondpage-text p {
         font-size: 12px;
     }
-    .top-text{
+
+    .top-text {
         margin: 20px 0;
     }
-    .rectangle{
+
+    .rectangle {
         width: 40px;
         height: 40px;
     }
-    .image-secondpage{
-    display: none;
+
+    .image-secondpage {
+        display: none;
     }
-    .brands{
+
+    .brands {
         width: 100%;
         flex-wrap: wrap;
         margin-top: 0;
     }
-    .main-button{
+
+    .main-button {
         padding: 4px;
         width: 55%;
     }
-    .conainer-people{
+
+    .conainer-people {
         margin-top: 10px;
         width: 100%;
     }
-    .block-people{
+
+    .block-people {
         width: 100%;
         flex-wrap: wrap;
     }
-    .block-name{
+
+    .block-name {
         display: flex;
         width: 100%;
-        margin:10px 8px;
+        margin: 10px 8px;
         flex-direction: column;
         align-items: center;
     }
-    .top-project{
+
+    .top-project {
         margin-top: 20px;
     }
-    .top-project h1{
+
+    .top-project h1 {
         font-size: 35px;
     }
-    .conainer-project{
+
+    .conainer-project {
         width: 100%;
     }
-    .cards{
+
+    .cards {
         flex-direction: column;
         width: 100%;
         align-items: center;
     }
-    .card{
+
+    .card {
         width: auto;
-        margin:0 10px;
+        margin: 0 10px;
     }
-    .brands img{
+
+    .brands img {
         width: 20%;
         padding: 30px 30%;
-        
+
     }
-    .container-Join{
+
+    .container-Join {
         width: 100%;
         border-radius: 0;
         margin-top: 30px;
     }
-    .text-join h1{
+
+    .text-join h1 {
         font-size: 30px;
     }
-    .container-footer{
+
+    .container-footer {
         width: 95%;
         margin-top: 20px;
     }
-    .text-footer p{
+
+    .text-footer p {
         font-size: 10px;
     }
-    .social-footer img{
+
+    .social-footer img {
         width: 70%;
     }
-    .nav-footer h2{
+
+    .nav-footer h2 {
         font-size: 12px;
     }
-    .pages-footer .link-container a{
+
+    .pages-footer .link-container a {
         font-size: 9px;
         margin-top: 0;
     }
-    .text-contact p{
+
+    .text-contact p {
         font-size: 9px;
     }
-    .Copyright-footer p{
+
+    .Copyright-footer p {
         font-size: 9px;
     }
+
     .Copyright-footer .link {
         font-size: 9px;
+    }
+}
+
+@media (max-width: 2560px) and (min-width: 2048px) {
+    .nav {
+        padding: 25px 90px;
+        height: 90px;
+    }
+
+    .link-container a {
+        font-size: calc(2vh + 8px)
+    }
+
+    .links {
+        width: 60%;
+    }
+
+    .logo {
+        width: 15%;
+    }
+
+    .container-main {
+        height: 1300px;
+    }
+
+    .main-text {
+        margin-left: 200px;
+    }
+
+    .main-text h1 {
+        font-size: 100px;
+    }
+
+    .main-text p {
+        font-size: 40px;
+    }
+
+    .main-button {
+        padding: 35px;
+        width: 35%;
+        font-size: 35px;
+    }
+
+    .container-design {
+        margin-top: 50px;
+        height: auto;
+        width: 70%;
+    }
+
+    .main-design-text {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .main-design-text h2 {
+        font-size: 45px;
+    }
+
+    .main-design-text p {
+        font-size: 30px;
+    }
+
+    .main-design-button {
+        font-size: 30px;
+    }
+
+    .conainer-people h1 {
+        font-size: 60px;
+    }
+
+    .container-secondpage {
+        width: 70%;
+        margin-top: 200px;
+        height: 600px;
+    }
+
+    .secondpage-text {
+        width: 100%;
+    }
+
+    .secondpage-text h1 {
+        font-size: 45px;
+    }
+
+    .secondpage-text p {
+        font-size: 30px;
+    }
+
+    .top-text {
+        margin: 20px 0;
+    }
+
+    .rectangle {
+        width: 90px;
+        height: 90px;
+    }
+
+    .brands {
+        width: 70%;
+        margin-top: 120px;
+    }
+
+    .conainer-people {
+        margin-top: 50px;
+        width: 70%;
+    }
+
+    .block-people {
+        width: 90%;
+    }
+
+    .block-name {
+        display: flex;
+        width: 100%;
+        margin: 10px 8px;
+        flex-direction: column;
+    }
+
+    .person img {
+        width: 95px;
+    }
+
+    .person-name h2 {
+        font-size: 40px;
+    }
+
+    .text-under-name {
+        font-size: 23px;
+    }
+
+    .text-under-photo {
+        font-size: 30px;
+    }
+
+    .top-project {
+        margin-top: 120px;
+    }
+
+    .top-project h1 {
+        font-size: 60px;
+    }
+
+    .bot-project p {
+        font-size: 25px;
+    }
+
+    .conainer-project {
+        width: 70%;
+    }
+
+    .cards {
+        width: 100%;
+        align-items: center;
+    }
+
+    .card {
+        width: 48%;
+    }
+
+    .text-undercard h1 {
+        font-size: 40px;
+    }
+
+    .text-undercard p {
+        font-size: 30px;
+    }
+
+    .micro-arrow {
+        width: 90px;
+        height: 90px;
+    }
+
+    .brands img {
+        width: 15%;
+
+    }
+
+    .container-Join {
+        margin-top: 130px;
+    }
+
+    .text-join h1 {
+        font-size: 75px;
+    }
+
+    .text-join p {
+        font-size: 40px;
+        margin: 0;
+    }
+
+    .container-footer {
+        width: 70%;
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-button {
+        width: 20%;
+        height: 25%;
+        margin-top: 20px;
+    }
+
+    .text-inbutton {
+        font-size: 25px;
+    }
+
+    .text-footer p {
+        font-size: 25px;
+    }
+    .logo-footer img{
+        width: 200px;
+    }
+
+    .social-footer img {
+        width: 100%;
+    }
+
+    .nav-footer {
+        width: 100%;
+    }
+
+    .nav-footer h2 {
+        font-size: 35px;
+    }
+
+    .pages-footer .link-container a {
+        font-size: 22px;
+        margin-top: 0;
+    }
+
+    .text-contact p {
+        font-size: 22px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+    .Copyright-footer p {
+        font-size: 17px;
+       
+    }
+
+    .Copyright-footer .link {
+        font-size: 17px;
     }
 }
