@@ -1001,7 +1001,7 @@ button:focus {
     }
 
     .links {
-        width: 40%;
+        width: 50%;
     }
 
     .top-text h1 {
@@ -1023,11 +1023,30 @@ button:focus {
     .container-items {
         width: 70%;
     }
-
+    .container-tools {
+        width: 340px;
+    }
+    .right-tools{
+        margin-left: 50px;
+        width: 70%;
+    }
+    .brands p {
+        margin: 20px 10px;
+    }
+    .ico-brands{
+        width: 90%;
+    }
+    .ico-brands img {
+        width: 24%;
+        margin-bottom: 10px;
+    }
     .text-newcomer h1 {
         font-size: 35px;
     }
-
+    .end-text h1 {
+        font-size: 48px;
+        text-align: center;
+    }
     .text-newcomer p {
         font-size: 14px;
     }
@@ -1043,9 +1062,11 @@ button:focus {
     .about-new-tools {
         font-size: 14px;
     }
-
+    .newcomer-tools {
+        width: 30%;
+    }
     .new-tools {
-        width: 250px;
+        width: 249px;
         height: 260px;
         margin-left: 20px;
     }
@@ -1074,18 +1095,28 @@ button:focus {
         font-size: 14px;
     }
 
-    .join-search {
-        width: 90%;
+    .join-search .search {
+        padding: 6px 15px;
+    }
+    .main-container-person{
+        margin: 0;
+    }
+    .container-person{
+        margin: 100px;
+    }
+    .bot-sliders{
+        width: 30%;
     }
 }
 
-@media (min-width: 390px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 768px) {
     .logo img {
         width: 30px;
     }
 
     .logo {
-        font-size: 16px;
+        font-size: 13px;
+        width: auto;
     }
 
     .container-login {
@@ -1210,10 +1241,12 @@ button:focus {
 
     .text-newcomer h1 {
         font-size: 35px;
+        text-align: center;
     }
 
     .text-newcomer p {
         font-size: 18px;
+        margin-left: 25px;
     }
 
     .name-tools {
@@ -1226,8 +1259,9 @@ button:focus {
     }
 
     .right-tools {
-        width: 70%;
+        width: 100%;
         margin: 20px 0;
+        justify-content: center;
     }
 
     .note-tools p {
@@ -1239,8 +1273,9 @@ button:focus {
     }
 
     .new-tools {
-        width: 100%;
+        width: 334px;
         height: 250px;
+        margin-left: 0;
     }
 
     .container-person {
@@ -1257,25 +1292,25 @@ button:focus {
     }
 
     .bg-circle {
-        width: 300px;
-        height: 300px;
+        width: 260px;
+        height: 260px;
     }
 
     .bg-circle2 {
         position: absolute;
-        width: 230px;
-        height: 230px;
+        width: 200px;
+        height: 200px;
         left: 35px;
         top: 35px;
     }
 
     .person-photo {
         left: 20px;
-        height: 400px;
+        height: 350px;
     }
 
     .person-photo img {
-        width: 250px;
+        width: 220px;
 
     }
 
@@ -1287,7 +1322,7 @@ button:focus {
 
     .name-person {
         top: 340px;
-        left: 30px;
+left: 0;
     }
 
     .right-text-person {
@@ -1319,9 +1354,11 @@ button:focus {
     .join-us {
         width: 80%;
     }
-
+.end-text h1{
+    text-align: center;
+}
     .join-search .nav-button {
-        font-size: 17px;
+        font-size: 16px;
         width: 66px;
     }
 
@@ -1332,21 +1369,23 @@ button:focus {
     .bot-sliders {
         width: 70%;
     }
-
+.nav-footer{
+    width: 98%;
+}
     .naming-footer h2 {
-        font-size: 18px;
+        font-size: 11px;
     }
 
     .under-logo h2 {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .under-logo p {
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .pages-footer h2 {
-        font-size: 14px;
+        font-size: 11px;
         margin: 5px 5px;
     }
 
