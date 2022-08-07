@@ -1023,30 +1023,38 @@ button:focus {
     .container-items {
         width: 70%;
     }
+
     .container-tools {
         width: 340px;
     }
-    .right-tools{
+
+    .right-tools {
         margin-left: 50px;
         width: 70%;
     }
+
     .brands p {
         margin: 20px 10px;
     }
-    .ico-brands{
+
+    .ico-brands {
         width: 90%;
     }
+
     .ico-brands img {
         width: 24%;
         margin-bottom: 10px;
     }
+
     .text-newcomer h1 {
         font-size: 35px;
     }
+
     .end-text h1 {
         font-size: 48px;
         text-align: center;
     }
+
     .text-newcomer p {
         font-size: 14px;
     }
@@ -1062,9 +1070,11 @@ button:focus {
     .about-new-tools {
         font-size: 14px;
     }
+
     .newcomer-tools {
         width: 30%;
     }
+
     .new-tools {
         width: 249px;
         height: 260px;
@@ -1098,13 +1108,16 @@ button:focus {
     .join-search .search {
         padding: 6px 15px;
     }
-    .main-container-person{
+
+    .main-container-person {
         margin: 0;
     }
-    .container-person{
+
+    .container-person {
         margin: 100px;
     }
-    .bot-sliders{
+
+    .bot-sliders {
         width: 30%;
     }
 }
@@ -1114,18 +1127,29 @@ button:focus {
         width: 30px;
     }
 
+    .nav {
+        position: relative;
+        align-items: normal;
+        flex-direction: column;
+    }
+
     .logo {
-        font-size: 13px;
-        width: auto;
+        margin-left: 10px;
+        font-size: 25px;
     }
 
     .container-login {
+        position: absolute;
+        top: 0;
+        right: 0;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        width: 27%;
+        width: 40%;
     }
-
+    .container-login .nav-button{
+        font-size: 20px;
+    }
     .nav-button {
         padding: 1px 15px;
     }
@@ -1139,11 +1163,14 @@ button:focus {
     }
 
     .link-container a {
-        font-size: 11px;
+        font-size: 19px;
     }
 
     .links {
-        width: 60%;
+        margin-left: 10px;
+        align-items: normal;
+        flex-direction: column;
+        width: 70%;
     }
 
     .container-main {
@@ -1175,10 +1202,10 @@ button:focus {
         font-size: 12px;
     }
 
-    .nav {
-        height: 60px;
-    }
 
+    .text-second h1{
+        text-align: center;
+    }
     .nav-button {
         font-size: 13px;
     }
@@ -1193,11 +1220,12 @@ button:focus {
     }
 
     .container-items {
-        width: 85%;
+        width: 95%;
     }
 
     .container-tools {
-        height: 270px;
+        height: 300px;
+        width: 300px;
     }
 
     .bot-buttons .nav-button {
@@ -1219,6 +1247,10 @@ button:focus {
     .ico-brands img {
         width: 48%;
         margin-bottom: 10px;
+    }
+
+    .about-tools {
+        margin-left: 10px;
     }
 
     .ico-brands {
@@ -1244,6 +1276,10 @@ button:focus {
         text-align: center;
     }
 
+    .like-folder {
+        width: 25%;
+    }
+
     .text-newcomer p {
         font-size: 18px;
         margin-left: 25px;
@@ -1259,9 +1295,9 @@ button:focus {
     }
 
     .right-tools {
-        width: 100%;
+        width: 80%;
         margin: 20px 0;
-        justify-content: center;
+        justify-content: space-between;
     }
 
     .note-tools p {
@@ -1273,7 +1309,7 @@ button:focus {
     }
 
     .new-tools {
-        width: 334px;
+        
         height: 250px;
         margin-left: 0;
     }
@@ -1322,7 +1358,7 @@ button:focus {
 
     .name-person {
         top: 340px;
-left: 0;
+        left: 0;
     }
 
     .right-text-person {
@@ -1354,12 +1390,14 @@ left: 0;
     .join-us {
         width: 80%;
     }
-.end-text h1{
-    text-align: center;
-}
+
+    .end-text h1 {
+        text-align: center;
+    }
+
     .join-search .nav-button {
         font-size: 16px;
-        width: 66px;
+        width: 90px;
     }
 
     .join-search {
@@ -1369,9 +1407,11 @@ left: 0;
     .bot-sliders {
         width: 70%;
     }
-.nav-footer{
-    width: 98%;
-}
+
+    .nav-footer {
+        width: 98%;
+    }
+
     .naming-footer h2 {
         font-size: 11px;
     }
@@ -1385,14 +1425,13 @@ left: 0;
     }
 
     .pages-footer h2 {
-        font-size: 11px;
+        font-size: 9px;
         margin: 5px 5px;
     }
 
     .pages-footer p {
         font-size: 8px;
     }
-
     .pages-footer a {
         font-size: 8px;
     }
