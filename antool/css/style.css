@@ -15,6 +15,7 @@
     src: local('Poppins'), url(../fonts/Poppins-Medium.ttf) format('truetype');
     font-weight: initial;
 }
+
 @font-face {
     font-family: 'Lora-medium', serif;
     src: local('Lora'), url(../fonts/Lora-Medium.ttf) format('truetype');
@@ -39,27 +40,31 @@ input:focus-visible {
 strong {
     color: rgba(255, 110, 48, 1);
 }
-button{
+
+button {
     background: none;
     cursor: pointer;
     border-radius: 0;
     border: none;
     font-weight: initial;
 }
-button:focus{
-    outline:0
+
+button:focus {
+    outline: 0
 }
+
 * {
-    -webkit-touch-callout: none; 
-      -webkit-user-select: none;
-       -khtml-user-select: none;
-         -moz-user-select: none;
-          -ms-user-select: none; 
-              user-select: none;
-                                   
-  }
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
 .container {
-    margin: 0 7%;
+    margin: 30px 7%;
 }
 
 .logo {
@@ -288,7 +293,8 @@ button:focus{
     display: flex;
     justify-content: space-between
 }
-.like-svg{
+
+.like-svg {
     transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
@@ -483,6 +489,7 @@ button:focus{
     margin-top: 200px;
     align-items: center;
 }
+
 .container-person {
     display: flex;
     justify-content: center;
@@ -498,7 +505,8 @@ button:focus{
     justify-content: space-between;
     align-items: center;
 }
-.person-photo img{
+
+.person-photo img {
     margin-top: 30px;
     border-radius: 30px;
 }
@@ -518,20 +526,23 @@ button:focus{
     z-index: 4;
     overflow: hidden;
 }
-.name-person h2{
+
+.name-person h2 {
     font-family: 'Poppins-medium';
     font-size: 26px;
     color: rgba(255, 253, 253, 0.78);
     margin-bottom: 0;
     margin-top: 10px;
 }
-.name-person p{
+
+.name-person p {
     font-family: 'Poppins-regular';
     font-size: 16px;
     color: rgba(255, 253, 253, 0.55);
     margin-top: 0;
 }
-.about-person{
+
+.about-person {
     margin-left: 23px;
 }
 
@@ -623,72 +634,85 @@ button:focus{
     filter: blur(40px);
     transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
-.right-text-person p{
+
+.right-text-person p {
     font-family: 'Poppins-regular';
     font-size: 14px;
     color: rgba(255, 255, 255, 0.78);
 }
-.right-text-person{
+
+.right-text-person {
     z-index: 1;
 }
-.up-pointer{
+
+.up-pointer {
     position: relative;
     bottom: 250px;
     right: 90px;
     z-index: 0;
 }
-.up-pointer p{
+
+.up-pointer p {
     position: absolute;
-width: 103px;
-height: 320px;
-color: rgba(255, 255, 255, 0.78);
-font-family: 'lora-medium';
-font-weight: 500;
-font-size: 250px;
-line-height: 320px;
-background: linear-gradient(174deg, rgba(252, 252, 252, 0) 22.34%, rgba(255, 255, 255, 0.9) 184.72%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-transform: rotate(19.17deg);
-margin: 0;
+    width: 103px;
+    height: 320px;
+    color: rgba(255, 255, 255, 0.78);
+    font-family: 'lora-medium';
+    font-weight: 500;
+    font-size: 250px;
+    line-height: 320px;
+    background: linear-gradient(174deg, rgba(252, 252, 252, 0) 22.34%, rgba(255, 255, 255, 0.9) 184.72%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: rotate(19.17deg);
+    margin: 0;
 }
-.left-arrow{
+
+.left-arrow {
     padding: 0px 50px;
     height: 100%;
     color: rgba(255, 255, 255, 0.28);
 }
-.right-arrow{
+
+.right-arrow {
     padding: 0px 50px;
     height: 100%;
-    transform:  rotate(180deg);
+    transform: rotate(180deg);
 }
-.left-arrow-svg{
+
+.left-arrow-svg {
     transition: 0.2s cubic-bezier(0.4, 0, 1, 1);
 }
-.left-arrow:hover .left-arrow-svg{
+
+.left-arrow:hover .left-arrow-svg {
     stroke: rgba(255, 110, 48, 1);
     overflow: hidden;
 }
-.right-arrow-svg{
+
+.right-arrow-svg {
     transition: 0.2s cubic-bezier(0.4, 0, 1, 1);
 }
-.right-arrow:hover .right-arrow-svg{
+
+.right-arrow:hover .right-arrow-svg {
     stroke: rgba(255, 110, 48, 1);
     overflow: hidden;
 }
-.bot-sliders{
+
+.bot-sliders {
     display: flex;
     width: 17%;
     justify-content: space-evenly;
     padding: 30px 30px;
 }
-.rectangle{
+
+.rectangle {
     width: 44px;
     height: 6px;
     background: rgba(40, 48, 54, 1);
     border-radius: 4px;
     overflow: hidden;
 }
+
 .rectangle::before {
     transition: height 0.3s cubic-bezier(0.45, 0.05, 0.24, 0.83);
     ;
@@ -713,16 +737,19 @@ margin: 0;
     background: rgba(255, 110, 48, 0.6);
     transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
-.end-page{
+
+.end-page {
     display: flex;
     justify-content: center;
 }
-.join-us{
+
+.join-us {
     width: 50%;
     display: flex;
     justify-content: center;
 }
-.end-text{
+
+.end-text {
     display: flex;
     color: rgba(255, 255, 255, 0.9);
     font-family: 'Poppins-medium';
@@ -730,16 +757,19 @@ margin: 0;
     align-items: center;
     width: 100%;
 }
-.end-text h1{
+
+.end-text h1 {
     font-size: 48px;
 }
-.end-text p{
+
+.end-text p {
     font-size: 18px;
     text-align: center;
     color: rgba(255, 255, 255, 0.55);
 
 }
-.join-search{
+
+.join-search {
     padding: 7px 8px;
     background: linear-gradient(0deg, #283036, #283036),
         linear-gradient(90.89deg, rgba(255, 255, 255, 0.1) -1.67%, rgba(255, 255, 255, 0) 103.73%);
@@ -750,252 +780,585 @@ margin: 0;
     margin-top: 50px;
     width: 75%;
 }
-.polosochka-footer{
+
+.polosochka-footer {
     background: rgba(255, 255, 255, 0.15);
     border: 0.5px solid rgba(255, 255, 255, 0.15);
     margin-top: 100px;
 }
-.container-footer{
+
+.container-footer {
     display: flex;
     width: 100%;
     justify-content: center;
 }
-.nav-footer{
+
+.nav-footer {
     display: flex;
     width: 90%;
     justify-content: space-evenly;
 }
-.naming-footer{
+
+.naming-footer {
     display: flex;
 }
-.naming-footer h2{
+
+.naming-footer h2 {
     font-family: 'Poppins-semiBold';
     font-size: 22px;
     color: rgba(255, 255, 255, 0.9);
     margin-left: 12px;
 }
-.under-logo h2{
+
+.under-logo h2 {
     font-family: 'Poppins-medium';
     font-size: 16px;
     color: rgba(255, 255, 255, 0.9);
-}.under-logo p{
+}
+
+.under-logo p {
     font-family: 'Poppins-regular';
     font-size: 14px;
     color: rgba(255, 255, 255, 0.55);
 }
-.logo-footer{
+
+.logo-footer {
     display: flex;
     flex-direction: column;
 }
-.pages-footer h2{
+
+.pages-footer h2 {
     font-family: 'Poppins-medium';
     font-size: 20px;
     color: rgba(255, 255, 255, 0.9);
 }
-.pages-footer p{
+
+.pages-footer p {
     font-family: 'Poppins-medium';
     font-size: 16px;
     color: rgba(255, 255, 255, 0.55);
 }
-.pages-footer a{
+
+.pages-footer a {
     font-family: 'Poppins-medium';
     font-size: 16px;
     color: rgba(255, 255, 255, 0.55);
 }
-@media (max-width: 2048px){
-    .link-container a{
-        font-size: 20px;
-        
+
+@media (max-width: 2560px) and (min-width: 2000px) {
+    .logo {
+        font-size: 26px;
+        width: 175px;
     }
+
+    .link-container a {
+        font-size: 26px;
+
+    }
+
     .top-text h1 {
-        font-size: 50px;
+        font-size: 64px;
     }
+
     .top-text p {
-        font-size: 23px;
+        font-size: 32px;
     }
-    .nav{
-        height: 60px;
+
+    .nav-button {
+        font-size: 26px;
     }
-    .nav-button{
-        font-size: 17px;
-    }
-    .container-items{
+
+    .container-items {
         width: 70%;
     }
-    .logo img{
+
+    .container-tools {
+        width: 500px;
+        height: 365px;
+    }
+
+    .tools img {
+        width: 84px;
+        max-height: 85px;
+    }
+
+    .about-tools {
+        font-size: 21px;
+    }
+
+    .name-tools h2 {
+        font-size: 30px;
+    }
+
+    .bot-buttons a {
+        font-size: 25px;
+    }
+
+    .logo img {
         width: 120px;
     }
-    .text-newcomer h1{
-        font-size: 55px;
+
+    .like-folder {
+        width: 30%;
     }
-    .text-newcomer p{
-        font-size: 24px;
+
+    .like-folder svg {
+        height: 47px;
+        width: 47px;
     }
-    .note-tools p{
+
+    .like-folder img {
+        width: 47px;
+    }
+
+    .load-more {
+        font-size: 30px;
+    }
+
+    .ico-brands img {
+        width: 16%;
+    }
+
+    .text-newcomer h1 {
+        font-size: 75px;
+    }
+
+    .text-newcomer p {
+        font-size: 32px;
+    }
+
+    .note-tools p {
         font-size: 20px;
     }
+
     .about-new-tools {
         font-size: 17px;
     }
-    .new-tools{
-        width: 310px;
-        height: 310px;
+
+    .new-tools {
+        width: 400px;
+        height: 350px;
     }
-    .right-text-person p{
-        font-size: 18px;
+
+    .containernew-like-folder {
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
     }
-    .up-pointer p{
+
+    .containernew-like-folder svg {
+        height: 47px;
+        width: 47px;
+    }
+
+    .containernew-like-folder img {
+        width: 47px;
+    }
+
+    .left-arrow svg {
+        width: 30px;
+        height: 42px;
+    }
+
+    .right-arrow svg {
+        width: 30px;
+        height: 42px;
+    }
+
+    .right-text-person p {
+        font-size: 26px;
+    }
+
+    .person-photo img {
+        border-radius: 30px;
+        width: 400px;
+    }
+
+    .person-photo {
+        height: 590px;
+    }
+
+    .name-person h2 {
+        font-size: 35px;
+    }
+
+    .name-person p {
+        font-size: 20px;
+    }
+
+    .up-pointer p {
         font-size: 250px;
     }
-    .main-input{
+
+    .main-input {
         font-size: 20px;
     }
 }
 
-@media (min-width: 1280px) and (max-width: 1366px)
-{
-    .link-container a{
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .link-container a {
         font-size: 20px;
     }
-    .links{
+
+    .links {
         width: 40%;
     }
+
     .top-text h1 {
         font-size: 30px;
     }
+
     .top-text p {
         font-size: 17px;
     }
-    .nav{
+
+    .nav {
         height: 60px;
     }
-    .nav-button{
+
+    .nav-button {
         font-size: 13px;
     }
-    .container-items{
+
+    .container-items {
         width: 70%;
     }
-   
-    .text-newcomer h1{
+
+    .text-newcomer h1 {
         font-size: 35px;
     }
-    .text-newcomer p{
+
+    .text-newcomer p {
         font-size: 14px;
     }
-    .name-tools h2{
+
+    .name-tools h2 {
         font-size: 20px;
     }
-    .note-tools p{
+
+    .note-tools p {
         font-size: 15px;
     }
+
     .about-new-tools {
         font-size: 14px;
     }
+
     .new-tools {
         width: 250px;
         height: 260px;
         margin-left: 20px;
     }
-    .person{
+
+    .person {
         width: 90%;
     }
-    .right-text-person p{
+
+    .right-text-person p {
         font-size: 14px;
     }
-    .up-pointer p{
+
+    .up-pointer p {
         font-size: 250px;
     }
+
     .left-arrow {
         padding: 0px 30px
     }
+
     .right-arrow {
         padding: 0px 30px
     }
-    .main-input{
+
+    .main-input {
         font-size: 14px;
     }
-    .join-search{
-        width: 90%;
-    }
-} 
- @media (min-width: 393px) and (max-width: 500px)
- {
-    .link-container a{
-        font-size: 23px;
-    }
-    .links{
-        width: 60%;
-    }
-    .top-text h1 {
-        font-size: 40px;
-    }
-    .top-text p {
-        font-size: 21px;
-    }
-    .nav{
-        height: 60px;
-    }
-    .nav-button{
-        font-size: 13px;
-    }
-    .container-items{
-        width: 85%;
-    }
-   
-    .text-newcomer h1{
-        font-size: 44px;
-    }
-    .text-newcomer p{
-        font-size: 16px;
-    }
-    .name-tools{
-        margin-left: 20px;
-    }
-    .name-tools h2{
-        font-size: 18px;
-       
-    }
-    .note-tools p{
-        font-size: 15px;
-    }
-    .about-new-tools {
-        font-size: 14px;
-    }
-    .new-tools {
-        width: 205px;
-        height: 300px;
-        margin-left: 10px;
-    }
-    .main-container-person{
-        width: 90%;
-    }
-    .circle-container {
-        margin-right: 90px;
-    }
-    .person{
-        width: 100%;
-    }
-    .right-text-person p{
-        font-size:11px;
-        margin-left: 20px;
-    }
-    .up-pointer p{
-        font-size: 250px;
-    }
-    .left-arrow {
-        padding: 0px 10px
-    }
-    .right-arrow {
-        padding: 0px 10px
-    }
-    .main-input{
-        font-size: 14px;
-    }
-    .join-search{
+
+    .join-search {
         width: 90%;
     }
 }
-.active{
+
+@media (min-width: 390px) and (max-width: 768px) {
+    .logo img {
+        width: 30px;
+    }
+
+    .logo {
+        font-size: 16px;
+    }
+
+    .container-login {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 27%;
+    }
+
+    .nav-button {
+        padding: 1px 15px;
+    }
+
+    .container-nav {
+        margin-top: 0;
+    }
+
+    .container {
+        margin: 0
+    }
+
+    .link-container a {
+        font-size: 11px;
+    }
+
+    .links {
+        width: 60%;
+    }
+
+    .container-main {
+        margin: 10px 30px;
+    }
+
+    .top-text {
+        width: 90%;
+    }
+
+    .main-picture {
+        width: 0%;
+    }
+
+    .top-text h1 {
+        font-size: 34px;
+    }
+
+    .top-text p {
+        font-size: 21px;
+    }
+
+    .icon-search {
+        width: 19px;
+    }
+
+    .main-input {
+        margin: 0 3px;
+        font-size: 12px;
+    }
+
+    .nav {
+        height: 60px;
+    }
+
+    .nav-button {
+        font-size: 13px;
+    }
+
+    .social {
+        margin-top: 30px;
+        width: 85%;
+    }
+
+    .second-page {
+        margin-top: 200px;
+    }
+
+    .container-items {
+        width: 85%;
+    }
+
+    .container-tools {
+        height: 270px;
+    }
+
+    .bot-buttons .nav-button {
+        font-size: 20px;
+    }
+
+    .button-bot-second {
+        width: 40%;
+    }
+
+    .brands {
+        height: auto;
+    }
+
+    .brands p {
+        margin: 20px 10px;
+    }
+
+    .ico-brands img {
+        width: 48%;
+        margin-bottom: 10px;
+    }
+
+    .ico-brands {
+        flex-wrap: wrap;
+    }
+
+    .third-page {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .newcomer-tools {
+        align-items: center;
+    }
+
+    .newcomer-tools .nav-button {
+        font-size: 19px;
+    }
+
+    .text-newcomer h1 {
+        font-size: 35px;
+    }
+
+    .text-newcomer p {
+        font-size: 18px;
+    }
+
+    .name-tools {
+        margin-left: 20px;
+    }
+
+    .name-tools h2 {
+        font-size: 18px;
+
+    }
+
+    .right-tools {
+        width: 70%;
+        margin: 20px 0;
+    }
+
+    .note-tools p {
+        font-size: 15px;
+    }
+
+    .about-new-tools {
+        font-size: 14px;
+    }
+
+    .new-tools {
+        width: 100%;
+        height: 250px;
+    }
+
+    .container-person {
+        margin-top: 0;
+    }
+
+    .main-container-person {
+        margin-top: 30px;
+        width: 90%;
+    }
+
+    .circle-container {
+        margin-right: 90px;
+    }
+
+    .bg-circle {
+        width: 300px;
+        height: 300px;
+    }
+
+    .bg-circle2 {
+        position: absolute;
+        width: 230px;
+        height: 230px;
+        left: 35px;
+        top: 35px;
+    }
+
+    .person-photo {
+        left: 20px;
+        height: 400px;
+    }
+
+    .person-photo img {
+        width: 250px;
+
+    }
+
+    .person {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .name-person {
+        top: 340px;
+        left: 30px;
+    }
+
+    .right-text-person {
+        margin-top: 40px;
+    }
+
+    .right-text-person p {
+        font-size: 17px;
+        margin-left: 20px;
+    }
+
+    .up-pointer {
+        right: 15px;
+        bottom: 180px;
+    }
+
+    .up-pointer p {
+        font-size: 120px;
+    }
+
+    .left-arrow {
+        padding: 50px 10px
+    }
+
+    .right-arrow {
+        padding: 50px 10px
+    }
+
+    .join-us {
+        width: 80%;
+    }
+
+    .join-search .nav-button {
+        font-size: 17px;
+        width: 66px;
+    }
+
+    .join-search {
+        width: 90%;
+    }
+
+    .bot-sliders {
+        width: 70%;
+    }
+
+    .naming-footer h2 {
+        font-size: 18px;
+    }
+
+    .under-logo h2 {
+        font-size: 10px;
+    }
+
+    .under-logo p {
+        font-size: 10px;
+    }
+
+    .pages-footer h2 {
+        font-size: 14px;
+        margin: 5px 5px;
+    }
+
+    .pages-footer p {
+        font-size: 8px;
+    }
+
+    .pages-footer a {
+        font-size: 8px;
+    }
+}
+
+.active {
     fill: rgba(253, 59, 65, 1);
-    
 }
