@@ -9,11 +9,17 @@
     src: local('AzertMono-Bold'), url(../fonts/AzeretMono-Bold.ttf) format('truetype');
     font-weight: initial;
 }
+
 @font-face {
     font-family: 'azertmono-regular';
     src: local('AzertMono-regular'), url(../fonts/AzeretMono-Regular.ttf) format('truetype');
     font-weight: initial;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
 }
@@ -30,7 +36,7 @@ input:focus-visible {
 .container-first-page {
     background: #4A2B33;
     justify-content: center;
-    height: 990px;
+    padding-bottom: 30px;
 }
 
 .container-nav {
@@ -39,11 +45,13 @@ input:focus-visible {
     width: 100%;
 
 }
-.logo{
+
+.logo {
     position: absolute;
     align-items: center;
     margin-top: 23px;
 }
+
 .nav {
     display: flex;
     width: 85%;
@@ -169,79 +177,94 @@ input:focus-visible {
     width: 50%;
     justify-content: center;
 }
-.page-location{
+
+.page-location {
     background: rgba(170, 158, 84, 1);
     display: flex;
     justify-content: center;
 }
-.graphic-work{
+
+.graphic-work {
     display: flex;
     width: 85%;
     justify-content: space-around;
     margin-top: 120px;
     margin-bottom: 120px;
 }
-.graphic-work h2{
+
+.graphic-work h2 {
     font-family: "azertmono-bold";
     font-size: 17px;
     color: #FFFFFF
 }
-.graphic-work p{
+
+.graphic-work p {
     font-family: "inter-regular";
     font-size: 25px;
     color: #FFFFFF
 }
-.page-photo{
+
+.page-photo {
     display: flex;
     justify-content: center;
 }
-.container-photo{
+
+.container-photo {
     width: 72%;
     display: flex;
     justify-content: space-between;
     margin-top: 120px;
     margin-bottom: 120px;
 }
-.mini-photo{
+
+.mini-photo {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     height: 640px;
 }
-.last-page{
+
+.last-page {
     background: rgba(74, 43, 51, 1);
     display: flex;
     justify-content: center;
 }
-.container-last-page{
+
+.container-last-page {
     width: 72%;
 }
-.winnig-cafe{
+
+.winnig-cafe {
     display: flex;
     justify-content: space-between;
     margin-top: 120px;
     margin-bottom: 120px;
 }
-.left-text h1{
+
+.left-text h1 {
     font-family: "azertmono-regular";
     font-size: 47px;
     color: #D27487;
 }
-.right-text p{
+
+.right-text p {
     font-family: "inter-regular";
     font-size: 18px;
     color: #D27487;
 }
-.footer{
+
+.footer {
     display: flex;
     justify-content: center;
 }
-.container-footer{
+
+.container-footer {
     display: flex;
     flex-direction: column;
     width: 40%;
 }
-.links-top{
+
+.links-top {
     margin-top: 55px;
     display: flex;
     justify-content: space-evenly;
@@ -249,13 +272,15 @@ input:focus-visible {
     font-size: 15px;
     color: black;
 }
-.links-top p{
+
+.links-top p {
     font-family: "inter-regular";
     font-size: 15px;
     color: black;
     margin: 0;
 }
-.links-midle{
+
+.links-midle {
     margin-top: 7px;
     display: flex;
     justify-content: space-around;
@@ -263,87 +288,249 @@ input:focus-visible {
     font-size: 15px;
     color: black;
 }
-.links-midle p{
+
+.links-midle p {
     font-family: "inter-regular";
     font-size: 15px;
     color: black;
     margin: 0;
 }
-.copyright{
+
+.copyright {
     display: flex;
     justify-content: space-evenly;
 }
-.copyright p{
+
+.copyright p {
     font-family: "inter-regular";
     font-size: 13px;
     color: #696969;
 }
- @media (min-width:2560px ) {
-    .links{
+
+@media (min-width:2000px) and (max-width: 2560px) {
+    .links {
         width: 25%;
     }
-    .link{
+
+    .link {
         font-size: 30px;
     }
-    .container-first-page{
+
+    .container-first-page {
         height: 1440px;
     }
-    .first-photo{
+
+    .first-photo {
         margin-top: 70px;
     }
-    .social-top{
+
+    .social-top {
         width: 15%;
     }
-    .social img{
+
+    .social img {
         height: 46px;
     }
-    .text-aboutus h2{
+
+    .text-aboutus h2 {
         font-size: 31px;
     }
-    .text-aboutus p{
+
+    .text-aboutus p {
         font-size: 44px;
     }
-    .text-menu h2{
+
+    .text-menu h2 {
         font-size: 31px;
     }
-    .text-menu p{
+
+    .text-menu p {
         font-size: 44px;
     }
-    .button{
+
+    .button {
         font-size: 25px;
         height: 78px;
     }
-    .img-menu img{
+
+    .img-menu img {
         width: 800px;
     }
-    .graphic-work h2{
+
+    .graphic-work h2 {
         font-size: 31px;
     }
-    .graphic-work p{
+
+    .graphic-work p {
         font-size: 44px;
     }
-    .mini-photo{
+
+    .mini-photo {
         height: 850px;
     }
-    .mini-photo img{
+
+    .mini-photo img {
         height: 420px;
     }
-    .big-photo{
+
+    .big-photo {
         height: 850px;
     }
-    .big-photo img{
+
+    .big-photo img {
         height: 850px;
     }
-    .left-text h1{
+
+    .left-text h1 {
         font-size: 61px;
     }
-    .right-text p{
+
+    .right-text p {
         font-size: 26px;
     }
-    .link-footer p{
+
+    .link-footer p {
         font-size: 23px;
     }
-    .copyright p{
+
+    .copyright p {
         font-size: 23px;
     }
- }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .links {
+        width: 25%;
+    }
+
+    .social-top {
+        width: 12%;
+    }
+
+    .first-photo {
+        width: 95%;
+    }
+
+    .first-photo img {
+        width: 100%;
+    }
+
+    .img-menu {
+        width: 70%;
+    }
+
+    .img-menu img {
+        width: 440px;
+    }
+
+    .container-photo {
+        width: 99%;
+    }
+
+    .mini-photo img {
+        height: 270px;
+        width: 425px;
+    }
+
+    .big-photo img {
+        height: 640px;
+        width: 580px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    
+    .logo img{
+        width: 300px;
+    }
+    .links {
+        width: 65%;
+        margin-top: 50px;
+    }
+
+    .social-top {
+        width: 35%;
+        margin-top: 50px;
+    }
+
+    .first-photo {
+        width: 95%;
+    }
+
+    .first-photo img {
+        width: 100%;
+    }
+    .text-aboutus p{
+        font-size: 18px;
+    }
+    .text-aboutus{
+        margin: 50px 0;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+    }
+
+    .winnig-cafe {
+        flex-wrap: wrap;
+    }
+
+    .graphic-work {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .img-menu {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .img-menu img {
+        width: 300px;
+    }
+
+    .container-photo {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mini-photo{
+        height: 450px;
+    }
+    .mini-photo img {
+        height: 215px;
+        width: 290px;
+    }
+    .big-photo
+    {
+        margin-top: 20px;
+    }
+    .big-photo img {
+        height: 340px;
+        width: 290px;
+    }
+    .left-text h1{
+        font-size: 27px;
+    }
+   
+    .footer {
+        justify-content: center;
+    }
+    .container-footer{
+        width: 98%;
+        flex-direction: row;
+    }
+    .links-top{
+        margin-top: 7px;
+        width: 50%;
+        flex-direction: column;
+    }
+    .links-midle{
+        width: 50%;
+        flex-direction: column;
+    }
+    .copyright{
+        flex-direction: column;
+    }
+}
